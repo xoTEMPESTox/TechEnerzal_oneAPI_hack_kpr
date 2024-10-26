@@ -86,44 +86,44 @@ def generate_stream(payload):
 
     try:
 
-''' Function/Tool calls working in Refractor
-# Define the available functions
-        available_functions = [
-            {
-                "name": "get_employee_data",
-                "description": "Fetch specific personal data fields of an employee from the database.",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "fields": {
-                            "type": "array",
-                            "items": {
-                                "type": "string",
-                                "enum": ALLOWED_FIELDS
+        ''' Function/Tool calls working in Refractor
+        # Define the available functions
+                available_functions = [
+                    {
+                        "name": "get_employee_data",
+                        "description": "Fetch specific personal data fields of an employee from the database.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "fields": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "enum": ALLOWED_FIELDS
+                                    },
+                                    "description": "List of employee data fields to retrieve. Allowed fields are: employee_id, name, department, job_title, salary, leaves_taken_this_month."
+                                }
                             },
-                            "description": "List of employee data fields to retrieve. Allowed fields are: employee_id, name, department, job_title, salary, leaves_taken_this_month."
+                            "required": ["fields"]
                         }
                     },
-                    "required": ["fields"]
-                }
-            },
-            {
-                "name": "get_hr_policy",
-                "description": "Fetch HR policy information by querying the vector database.",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "user_query": {
-                            "type": "string",
-                            "description": "The query related to HR policy that is to be similarity searched in HR dataset."
+                    {
+                        "name": "get_hr_policy",
+                        "description": "Fetch HR policy information by querying the vector database.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "user_query": {
+                                    "type": "string",
+                                    "description": "The query related to HR policy that is to be similarity searched in HR dataset."
+                                }
+                            },
+                            "required": ["user_query"]
                         }
-                    },
-                    "required": ["user_query"]
-                }
-            }
-        ]
+                    }
+                ]
 
-'''
+        '''
 
         # Step 1: Get user query (user_message already obtained)
         logging.info("Step 1: User query obtained.")
