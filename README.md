@@ -34,7 +34,7 @@ On the technical front, **Tech Enerzal** integrates **NLP (Natural Language Proc
 ![Win](Assets/1728317802264.jpg)
 
 - **KPR Intel-GenAI** [PPT](https://www.canva.com/design/DAGSrRRaONI/oGPi8U2z5Nu3KRh8-Nt-mg/edit?utm_content=DAGSrRRaONI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- **Flowchart**: [View Flowchart](https://ibb.co/sv33hk8Z)
+- **Flowchart**: [View Flowchart](https://i.ibb.co/1fTxmKKp/image-2025-08-30-131502744.png)
 - **UIX**: [View UIX](https://www.figma.com/design/JjWcawrtYeyI9HQGt4eqwu/KPR-Chat_-Bot?node-id=0-1&t=finadrfppcxr3dh9-1)
 
 ---
