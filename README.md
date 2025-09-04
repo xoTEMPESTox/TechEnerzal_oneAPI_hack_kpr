@@ -29,7 +29,7 @@ On the technical front, **Tech Enerzal** integrates **NLP (Natural Language Proc
 
 ## 🎥 Vide Walkthrough - Priyanshu Sah
 
-[![Demo](https://prnt.sc/QqA88vHATQ0t)](https://youtu.be/k436X2PEze8)
+[![Demo](https://img001.prntscr.com/file/img001/rKpo5DFjTf2RDuDlZgaPVw.png)](https://youtu.be/k436X2PEze8)
 
 ## Additional Resources
 
